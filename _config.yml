@@ -8,7 +8,7 @@
 title: Oatmeal Cream Pie Book Club
 email: abhisharma2@gmail.com
 description: Book reviews and analysis from the Oatmeal Cream Pie Book Club
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ocpbc" # the subpath of your site, e.g. /blog
 url: "https://abhisharma2.github.io" # the base hostname & protocol for your site
 twitter_username: ocpbc
 
