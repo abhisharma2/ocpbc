@@ -1,0 +1,15 @@
+<header class="site-header">
+  <a href="/"><img class="img-responsive logo" src="/images/ocpbc-logo.png"></a>
+  <div class="wrapper">
+    <nav class="site-nav">
+      <div class="trigger">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
+
+</header>
